@@ -52,7 +52,7 @@ kind: Ingress
 metadata:
     labels:
         stack: frontend
-        env: stage
+        env: test
     annotations:
         nginx.ingress.kubernetes.io/rewrite-target: /$2
     name: upset-summer-ingress
