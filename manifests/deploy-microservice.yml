@@ -8,7 +8,7 @@ metadata:
     name: upset-summer-microservice
     namespace: microservices
 spec:
-    replicas: 5
+    replicas: 4
     selector:
         matchLabels:
             run: upset-summer-microservice
@@ -65,5 +65,3 @@ spec:
                         backend:
                             serviceName: upset-summer-microservice-service
                             servicePort: 30201
-
-
